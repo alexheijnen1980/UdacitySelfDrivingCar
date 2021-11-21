@@ -12,6 +12,7 @@ def create_mask(path, color_threshold):
     - img [array]: RGB image array
     - mask [array]: binary array
     """
+    # Too slow
     img = Image.open(path)
     width, height = img.size
     print(width, height)
